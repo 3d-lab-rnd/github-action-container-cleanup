@@ -1,3 +1,12 @@
+# 3D Lab fork
+
+Source:
+https://github.com/kacus/github-action-container-cleanup
+
+Changes: perform docker cache cleanup even if no new containers are running
+
+Original README.md below
+
 # Fork of [github-action-container-cleanup](https://github.com/waycarbon/github-action-container-cleanup)
 
 **This fork updates action to run in Node20**
