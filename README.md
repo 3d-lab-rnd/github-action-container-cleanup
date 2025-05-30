@@ -3,7 +3,10 @@
 Source:
 https://github.com/kacus/github-action-container-cleanup
 
-Changes: perform docker cache cleanup even if no new containers are running
+Changes:
+- perform docker cache cleanup even if no new containers were started during job
+- add "--all" flag to `docker system prune`, so not only dangling, but all unused images are removed
+
 
 Original README.md below
 
