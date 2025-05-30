@@ -9,4 +9,4 @@ fi
 
 docker system prune --volumes --force --all
 
-rm -f /tmp/post-containres-list.txt /tmp/pre-containers-list.txt
+rm -f /tmp/post-containers-list.txt /tmp/pre-containers-list.txt
