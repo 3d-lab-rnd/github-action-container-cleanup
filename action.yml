@@ -4,6 +4,6 @@ branding:
   icon: "trash-2"
   color: "red"
 runs:
-  using: "node20"
+  using: "node24"
   main: "index.js"
   post: "cleanup.js"
